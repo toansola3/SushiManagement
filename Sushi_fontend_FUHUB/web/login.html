@@ -5,46 +5,49 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
 <html>
-    <head>
-        <title>Login Page</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="css/login.css" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="css/menu.css" type="text/css">     
-    </head>
-    <body>
-asdsadsa
-asdasdasdasdsad
-asd
-        <section>
-            <div class="img-bg">
-                <img src="https://niemvuilaptrinh.ams3.cdn.digitaloceanspaces.com/tao_trang_dang_nhap/hinh_anh_minh_hoa.jpg"
-                     alt="Hình Ảnh Minh Họa">
+  <head>
+    <title>Login Page</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="css/login.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="css/menu.css" type="text/css" />
+  </head>
+  <body>
+    asdsadsa asdasdasdasdsad asd toanf
+    <section>
+      <div class="img-bg">
+        <img
+          src="https://niemvuilaptrinh.ams3.cdn.digitaloceanspaces.com/tao_trang_dang_nhap/hinh_anh_minh_hoa.jpg"
+          alt="Hình Ảnh Minh Họa"
+        />
+      </div>
+      <div class="noi-dung">
+        <div class="form">
+          <h2>Welcome Login Account</h2>
+          <form action="MainController" method="POST">
+            <div class="input-form">
+              <span>Input the User Name</span>
+              <input type="text" name="txtUser" value="" required="" />
             </div>
-            <div class="noi-dung">
-                <div class="form">
-                    <h2> Welcome Login  Account </h2>
-                    <form action="MainController" method="POST">
-                        <div class="input-form">
-                            <span>Input the User Name</span>
-                            <input type="text" name="txtUser" value="" required="" />
-                        </div>
-                        <div class="input-form">
-                            <span>Input the password</span>
-                            <input type="password" name="txtPassword" value="" required=""/>
-                        </div>                       
-                        <div class="input-form">
-                            <input type="submit" value="Login" name="btAction" />
-                        </div>
-                        <div class="input-form">
-                            <input type="reset" value="Reset" />
-                        </div>
-                        <div class="input-form">
-                            <p>Do you not have an account? <a href="createUser.jsp">Create an account</a></p>
-                        </div>
-                    </form>                
-                </div>
+            <div class="input-form">
+              <span>Input the password</span>
+              <input type="password" name="txtPassword" value="" required="" />
             </div>
-        </section>
-    </body>
+            <div class="input-form">
+              <input type="submit" value="Login" name="btAction" />
+            </div>
+            <div class="input-form">
+              <input type="reset" value="Reset" />
+            </div>
+            <div class="input-form">
+              <p>
+                Do you not have an account?
+                <a href="createUser.jsp">Create an account</a>
+              </p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
